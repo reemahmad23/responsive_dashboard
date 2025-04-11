@@ -10,7 +10,7 @@ final String hint;
     return TextField(
       decoration: InputDecoration(
         hintText: hint,
-        hintStyle:  AppStyle.styleRegular16.copyWith(
+        hintStyle:  AppStyle.styleRegular16(context).copyWith(
           color: Color(0xFFFAFAFA)
         ),
         filled: true,

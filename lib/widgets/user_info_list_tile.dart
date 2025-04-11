@@ -14,11 +14,19 @@ final UserInfoModel userInfoModel;
       color: Color(0xFFFAFAFA),
       child: ListTile(
         leading: SvgPicture.asset(userInfoModel.image),
-        title: Text( userInfoModel.title,
-        style: AppStyle.styleSemiBold16,
+        title: FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: AlignmentDirectional.centerStart,
+          child: Text( userInfoModel.title,
+          style: AppStyle.styleSemiBold16(context),
+          ),
         ),
-        subtitle: Text( userInfoModel.subTitle,
-        style: AppStyle.styleRegular12,
+        subtitle: FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: AlignmentDirectional.centerStart,
+          child: Text( userInfoModel.subTitle,
+          style: AppStyle.styleRegular12(context),
+          ),
         ),
       ),
     );

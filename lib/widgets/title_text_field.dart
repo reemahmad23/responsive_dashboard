@@ -12,7 +12,7 @@ final String title, hint;
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text('Customer Name',
-        style: AppStyle.styleMedium16,
+        style: AppStyle.styleMedium16(context),
         ),
         CustomTextField(hint: hint,),
       ],

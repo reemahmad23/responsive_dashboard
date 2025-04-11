@@ -19,7 +19,7 @@ final Color? backgroundColor, textColor;
         ),
         onPressed: () {},
         child:  Text('Send Money',
-        style: AppStyle.styleBold18.copyWith(color: textColor),
+        style: AppStyle.styleBold18(context).copyWith(color: textColor),
         
         ),
       ),

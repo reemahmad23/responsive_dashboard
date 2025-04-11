@@ -41,21 +41,21 @@ class InActiveAndAActiveExpensesItem extends StatelessWidget {
     
         Text(
           itemModel.title,
-          style: AppStyle.styleMedium16.copyWith(
+          style: AppStyle.styleMedium16(context).copyWith(
             color: Colors.white
           ),
         ),
         SizedBox(height: 8,),
         Text(
           itemModel.date,
-          style: AppStyle.styleRegular14.copyWith(
+          style: AppStyle.styleRegular14(context).copyWith(
             color: Color(0xFFFAFAFA)
           ),
         ),
         SizedBox(height: 16,),
         Text(
           itemModel.price,
-          style: AppStyle.styleSemiBold24.copyWith(
+          style: AppStyle.styleSemiBold24(context).copyWith(
             color: Colors.white
           ),
         ),
@@ -102,17 +102,17 @@ class ActiveExpensesItem extends StatelessWidget {
     
         Text(
           itemModel.title,
-          style: AppStyle.styleMedium16,
+          style: AppStyle.styleMedium16(context),
         ),
         SizedBox(height: 8,),
         Text(
           itemModel.date,
-          style: AppStyle.styleRegular14,
+          style: AppStyle.styleRegular14(context),
         ),
         SizedBox(height: 16,),
         Text(
           itemModel.price,
-          style: AppStyle.styleSemiBold24,
+          style: AppStyle.styleSemiBold24(context),
         ),
       ],
       ),

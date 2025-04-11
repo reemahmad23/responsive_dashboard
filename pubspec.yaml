@@ -28,6 +28,9 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  fl_chart: ^0.70.2
+  device_preview: ^1.2.0
+  expandable_page_view: ^1.0.17
   flutter_svg: ^2.0.17
   flutter:
     sdk: flutter

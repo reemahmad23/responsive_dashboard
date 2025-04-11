@@ -15,7 +15,7 @@ class LatestTransaction extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 1),
           child: Text('Latest Transaction',
-          style: AppStyle.styleMedium16,
+          style: AppStyle.styleMedium16(context),
           ),
         ),
         Padding(
